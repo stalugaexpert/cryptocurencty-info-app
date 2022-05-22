@@ -1,1 +1,0 @@
-# cryptocurencty-info-app
