@@ -50,6 +50,13 @@ module.exports = {
     ],
     'react/jsx-filename-extension': 'off',
     '@typescript-eslint/indent': 'off',
+    'react/function-component-definition': [
+      2,
+      {
+        namedComponents: 'arrow-function',
+        unnamedComponents: 'arrow-function',
+      },
+    ],
     indent: ['error', 2, { SwitchCase: 1 }],
     'react/jsx-indent-props': 'off',
     'react/jsx-max-props-per-line': ['error', { maximum: 1 }],
