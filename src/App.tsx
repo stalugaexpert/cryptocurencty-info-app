@@ -2,7 +2,7 @@ import { Layout, Space, Typography } from 'antd';
 import { Link, Route, Routes } from 'react-router-dom';
 import styled from 'styled-components';
 
-import Cryptocurriencies from './components/cryptocurriencies';
+import Cryptocurrencies from './components/cryptocurrencies';
 import CryptoDetails from './components/cryptoDetails';
 import Exchanges from './components/exchanges';
 import Homepage from './components/homepage';
@@ -43,15 +43,15 @@ const App = (): JSX.Element => (
               path="/exchanges"
             />
             <Route
-              element={ <Cryptocurriencies /> }
-              path="/cryptocurriencies"
+              element={ <Cryptocurrencies simplified={ false } /> }
+              path="/cryptocurrencies"
             />
             <Route
               element={ <CryptoDetails /> }
-              path="/crypto/:coindId"
+              path="/crypto/:coinId"
             />
             <Route
-              element={ <News /> }
+              element={ <News simplified={ false } /> }
               path="/news"
             />
           </Routes>

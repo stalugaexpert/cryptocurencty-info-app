@@ -299,11 +299,18 @@ padding: 0px 20px;
 }
 .news-card{
   min-height: 300px !important;
+  border-radius: 18px !important;
 }
+
 .news-image-container{
   display: flex !important;
   justify-content: space-between !important;
 }
+
+.crypto-card-container-border {
+  border-radius: 18px !important;
+}
+
 .news-title{
 width: 70%;
 }
